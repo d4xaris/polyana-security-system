@@ -1,56 +1,15 @@
-# Репозиторій курсу "Бази даних"
+<img width="1281" height="239" alt="1 (1)" src="https://github.com/user-attachments/assets/56091c75-8928-441d-b344-bfe3127d2ca7" />
+<img width="1281" height="157" alt="1 (3)" src="https://github.com/user-attachments/assets/95c1dc86-cfd3-49cb-91a8-520b72b90c34" />
 
-Цей репозиторій містить ресурси та налаштування середовища для курсу по базам даних.
+---
 
-## PCO "Бази даних" (потік ІМ)
+<div align="center">
+   
+✨ **Made by**  
+   
+[@d4xaris](https://github.com/d4xaris) · [@setlors](https://github.com/setlors) · [@tevarindol](https://github.com/tevarindol)
 
-- 6 лабораторних робіт (10 балів кожна)
-- Контрольна робота (20 балів)
-- Екзамен (20 балів)
-- Доповіді (20 балів) - за бажанням
-- Додаткові бали за роботу на лекціях
-
-## PCO "Організація баз даних" (потік ІО)
-
-- 6 лабораторних робіт (10 балів кожна)
-- Контрольна робота (20 балів)
-- Додаткові бали за роботу на лекціях
-- Додаткові бали за вправи з SQL
-
-Фінальний бал = (`бали за лабораторні` + `бали за контрольну`) * 1.25 + `додаткові бали`
-
-## Матеріали курсу
-
-Матеріали лекцій доступні в директорії [lectures](lectures/):
-
-- [Лекція 1 - Вступ](lectures/01%20-%20intro)
-- [Лекція 2 - ER діаграми](lectures/02%20-%20ER%20diagrams)
-- [Лекція 3 - Таблиці, рядки, колонки](lectures/03%20-%20Tables,%20rows,%20columns)
-- [Лекція 4 - SQL частина 1](lectures/04%20-%20DML%20basics)
-- [Лекція 5 - SQL частина 2 - JOIN та операції над множинами](lectures/05%20-%20JOINs%20and%20set%20operations)
-- [Лекція 6 - SQL частина 3 - GROUP BY та віконні функції](lectures/06%20-%20GROUP%20BY%20and%20window%20functions)
-- [Лекція 7 - SQL частина 4 - Підзапити та CTE](lectures/07%20-%20Subqueries%20and%20CTE)
-- [Лекція 8 - Нормалізація](lectures/08%20-%20Normalisation)
-- [Лекція 9 - Міграції](lectures/09%20-%20Migrations)
-- [Лекція 10 - Транзакції](lectures/10%20-%20Transactions)
-- [Лекція 11-12 - Індекси](lectures/11-12%20-%20Indices)
-- [Лекція 13 - Денормалізація](lectures/13%20-%20Denormalisation)
-- [Лекція 14 - Фізична організація даних на диску](lectures/14%20-%20Data%20storage%20on%20disk)
-- [Лекція 15 - Нереляційні бази даних (NoSQL)](lectures/15%20-%20Non-relational%20DBMS)
-
-Інструкції та матеріали для лабораторних робіт доступні в директорії [labs](labs/):
-
-- [Лабораторна 1 - ER діаграми](labs/1%20-%20ER%20Diagram/lab_1.md)
-- [Лабораторна 2 - DDL](labs/2%20-%20DDL/lab_2.md)
-- [Лабораторна 3 - OLTP](labs/3%20-%20OLTP/lab_3.md)
-- [Лабораторна 4 - OLAP](labs/4%20-%20OLAP/lab_4.md)
-- [Лабораторна 5 - Нормалізація](labs/5%20-%20Normalization/lab_5.md)
-- [Лабораторна 6 - Міграції](labs/6%20-%20Migrations/lab_6.md)
-
-[Коротенький довідник по матеріалам](./sql-cheat-sheet.md)  
-[Словничок термінів](./glossary.md)
-
-Додаткові матеріали курсу та завдання будуть додані до цього репозиторію протягом семестру.
+</div>
 
 ## Огляд
 
@@ -120,6 +79,22 @@
 ```bash
 docker exec -it db-intro-course_postgres_1 psql -U postgres
 ```
+---
+
+<img width="1281" height="157" alt="1 (2)" src="https://github.com/user-attachments/assets/f7a9d5d3-b45a-4932-a56c-f996b2f4893e" />
+
+## Лабораторні
+- [Лабораторна 1 - ER діаграми](labs/1%20-%20ER%20Diagram/lab_1.md)
+- [Лабораторна 2 - DDL](labs/2%20-%20DDL/lab_2.md)
+- [Лабораторна 3 - OLTP](labs/3%20-%20OLTP/lab_3.md)
+- [Лабораторна 4 - OLAP](labs/4%20-%20OLAP/lab_4.md)
+- [Лабораторна 5 - Нормалізація](labs/5%20-%20Normalization/lab_5.md)
+- [Лабораторна 6 - Міграції](labs/6%20-%20Migrations/lab_6.md)
+
+[Коротенький довідник по матеріалам](./sql-cheat-sheet.md)  
+[Словничок термінів](./glossary.md)
+
+
 
 ## Збереження даних
 
