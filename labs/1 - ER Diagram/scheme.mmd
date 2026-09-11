@@ -1,0 +1,40 @@
+erDiagram
+	direction LR
+	STUDENT {
+		int student_id PK ""  
+		string full_name  ""  
+		string faculty  ""  
+		int course  ""  
+		string group_name  ""  
+	}
+
+	VISIT {
+		int visit_id PK ""  
+		int student_id FK ""  
+		date visit_date  ""  
+		time start_time  ""  
+		time end_time  ""  
+		string category  ""  
+	}
+
+	INCIDENT {
+		int incident_id PK ""  
+		int visit_id FK ""  
+		int employee_id FK "nullable"  
+		string type  ""  
+		string description  ""  
+		datetime date_time  ""  
+		string severity  ""  
+		string status  ""  
+	}
+
+	SECURITY_EMPLOYEE {
+		int employee_id PK ""  
+		string full_name  ""  
+		string position  ""  
+		string phone  ""  
+	}
+
+	STUDENT||--o{VISIT:"  "
+	VISIT||--o{INCIDENT:"  "
+	SECURITY_EMPLOYEE||--o{INCIDENT:"  "
