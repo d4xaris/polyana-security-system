@@ -1,0 +1,4 @@
+.generated
+.vscode
+.env
+node_modules
